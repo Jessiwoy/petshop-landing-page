@@ -1,0 +1,31 @@
+.hero {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.hero-text h1 {
+  margin: var(--space-md) 0;
+
+  font-size: var(--h1-size);
+  line-height: var(--h1-line);
+}
+
+.hero-text p {
+  color: var(--text-light);
+
+  margin-bottom: var(--space-lg);
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--space-md);
+}

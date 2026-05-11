@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+}
