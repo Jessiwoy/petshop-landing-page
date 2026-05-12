@@ -452,7 +452,72 @@
       </section>
 
       <!-- Contato -->
-      <section class="contact"></section>
+      <section class="contact">
+        <div class="container">
+          <div class="contact-content">
+            <div class="contact-info">
+              <span class="section-tag"> Entre em contato </span>
+
+              <h2>Agende o cuidado ideal para o seu pet.</h2>
+
+              <p>
+                Estamos prontos para oferecer atendimento acolhedor,
+                especializado e personalizado.
+              </p>
+
+              <div class="contact-items">
+                <div class="contact-item">
+                  <strong>Telefone</strong>
+                  <span>(48) 99999-9999</span>
+                </div>
+
+                <div class="contact-item">
+                  <strong>Email</strong>
+                  <span>contato@petcare.com</span>
+                </div>
+
+                <div class="contact-item">
+                  <strong>Horário</strong>
+                  <span>Seg a Sáb • 8h às 18h</span>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Seu nome" />
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Seu e-mail" />
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  placeholder="Como podemos ajudar?"
+                ></textarea>
+                <small class="error-message"></small>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Enviar mensagem
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="success-modal" id="successModal">
+        <div class="modal-content">
+          <h3>Mensagem enviada!</h3>
+          <p>Entraremos em contato em breve.</p>
+
+          <button class="btn btn-primary" id="closeModal">Fechar</button>
+        </div>
+      </div>
     </main>
 
     <!-- Footer -->
