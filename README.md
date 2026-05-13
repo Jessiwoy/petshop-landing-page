@@ -1,26 +1,81 @@
-# PetCare — Landing Page
+# 🐾 PetCare — Landing Page para Pet Shop
 
-Landing page moderna e responsiva desenvolvida para um pet shop fictício, com foco em experiência do usuário, design clean e boas práticas de desenvolvimento Front-End.
+Landing page moderna, responsiva e interativa desenvolvida para um pet shop fictício, com foco em experiência do usuário, identidade visual consistente e boas práticas de desenvolvimento Front-End.
 
-## 📌 Objetivo
+Este projeto foi desenvolvido como desafio prático, com objetivo de aplicar fundamentos de HTML, CSS e JavaScript em uma solução visualmente profissional e funcional, simulando um produto real.
 
-O projeto foi desenvolvido como parte de um desafio prático de Front-End, com o objetivo de demonstrar conhecimentos em:
+---
 
-- HTML semântico
-- CSS moderno e responsivo
+## 📌 Sobre o Projeto
+
+A **PetCare** foi pensada como uma landing page comercial para apresentação de serviços veterinários e cuidados para pets.
+
+O projeto foi estruturado com foco em:
+
+- Interface moderna e responsiva
+- Experiência do usuário fluida
+- Organização arquitetural
+- Componentização visual
+- Interatividade com JavaScript puro
+- Código limpo e escalável
+
+---
+
+## 🎯 Objetivos do Desenvolvimento
+
+Este projeto teve como objetivo praticar e demonstrar conhecimentos em:
+
+- HTML5 semântico
+- CSS3 moderno
 - JavaScript Vanilla
+- Responsividade
+- Manipulação do DOM
+- Organização modular
 - Estruturação de layout
-- Interatividade e manipulação do DOM
-- Organização de projeto
-- Boas práticas de UI/UX
+- Animações e microinterações
+- Versionamento com Git e GitHub
+- Fluxo profissional de branches e commits semânticos
 
-Além dos requisitos técnicos do desafio, o projeto também foi pensado como peça de portfólio profissional.
+---
+
+## ✨ Funcionalidades Implementadas
+
+### Interface e Navegação
+- Header fixo com navegação por âncoras
+- Hero section premium com background full-width
+- Botão "Back to Top"
+- Navegação fluida entre seções
+
+### Seções da Landing Page
+- Hero institucional
+- Sobre a empresa
+- Serviços
+- Diferenciais
+- Depoimentos
+- FAQ interativo
+- Formulário de contato
+- Footer
+
+### Interatividade
+- Scroll reveal animations
+- Hover effects
+- FAQ expansível
+- Formulário com validação
+- Modal de feedback
+- Scroll suave personalizado
+
+### Responsividade
+Layout adaptado para:
+
+- 📱 Mobile
+- 📲 Tablet
+- 💻 Desktop
 
 ---
 
 ## 🎨 Design System
 
-### Cores
+### Paleta de Cores
 
 ```css
 :root {
@@ -40,65 +95,124 @@ Além dos requisitos técnicos do desafio, o projeto também foi pensado como pe
 ```
 
 ### Tipografia
-- Poppins
-- Inter
+
+- **Poppins**
+- **Inter**
+
+### Princípios Visuais
+
+- Interface clean
+- Hierarquia visual clara
+- Glassmorphism sutil
+- Microinterações suaves
+- Visual premium e acolhedor
 
 ---
 
-## 🧱 Estrutura do Projeto
+## 🛠️ Tecnologias Utilizadas
 
-```txt
-/project
-  /assets
-    /images
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla)**
+- **Git**
+- **GitHub**
 
-  /css
-  /js
+Sem uso de frameworks ou bibliotecas externas.
 
-  index.html
-  README.md
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+petshop-landing-page/
+│
+├── assets/
+│   └── images/
+│
+├── css/
+│   ├── variables.css
+│   ├── globals.css
+│   ├── layout.css
+│   ├── components.css
+│   ├── sections.css
+│   └── responsive.css
+│
+├── js/
+│   ├── main.js
+│   ├── navbar.js
+│   ├── faq.js
+│   ├── form.js
+│   ├── scrollReveal.js
+│   └── backToTop.js
+│
+├── index.html
+└── README.md
 ```
 
 ---
 
-## ⚙️ Tecnologias
+## ⚙️ Como Executar
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+Clone o repositório:
 
----
+```bash
+git clone https://github.com/Jessiwoy/petshop-landing-page.git
+```
 
-## ✨ Funcionalidades Planejadas
+Acesse a pasta:
 
-- Landing page responsiva
-- Hero section moderna
-- Cards de serviços
-- Efeito parallax
-- Animações on-scroll
-- FAQ interativo
-- Formulário com validação
-- Modal de sucesso
-- Hover effects
-- Navbar dinâmica
+```bash
+cd petshop-landing-page
+```
 
----
+Abra o arquivo:
 
-## 📱 Responsividade
+```bash
+index.html
+```
 
-O projeto será desenvolvido com foco em:
-- mobile
-- tablet
-- desktop
+Ou utilize a extensão **Live Server** no VS Code.
 
 ---
 
-## 🚀 Status
+## 🌱 Processo de Desenvolvimento
 
-Projeto em desenvolvimento.
+O projeto foi desenvolvido seguindo fluxo incremental com versionamento por branches:
+
+- `main`
+- `develop`
+- `feature/*`
+
+Cada funcionalidade foi construída em etapas independentes, com commits semânticos e merge controlado.
+
+Esse fluxo permitiu:
+
+- Evolução organizada
+- Melhor rastreabilidade
+- Simulação de workflow profissional
 
 ---
 
-## 📄 Autor
+## 📚 Aprendizados Aplicados
 
-Jessica Woytuski
+Durante o desenvolvimento foram praticados conceitos como:
+
+- Estruturação semântica
+- Modularização de código
+- Responsividade real
+- Organização CSS escalável
+- Refinamento visual
+- Performance em animações
+- Controle de versão com Git
+
+---
+
+## 👩‍💻 Autora
+
+**Jessica Woytuski**
+
+GitHub:  
+https://github.com/Jessiwoy
+
+Repositório do projeto:  
+https://github.com/Jessiwoy/petshop-landing-page
