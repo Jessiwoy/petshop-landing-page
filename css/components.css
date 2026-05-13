@@ -6,8 +6,10 @@
   padding: 14px 24px;
 
   border-radius: var(--radius-md);
+  border: 1px solid transparent;
 
   font-weight: 500;
+  cursor: pointer;
 
   transition: var(--transition);
 }
@@ -22,6 +24,12 @@
 .btn-primary:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-md);
+  background-color: #429364;
+}
+
+.btn-primary:focus-visible {
+  outline: 2px solid rgba(76, 175, 125, 0.45);
+  outline-offset: 2px;
 }
 
 .btn-secondary {
@@ -29,6 +37,12 @@
   background-color: rgba(255, 255, 255, 0.7);
 
   backdrop-filter: blur(10px);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(76, 175, 125, 0.08);
+  border-color: rgba(76, 175, 125, 0.2);
+  color: var(--primary);
 }
 
 .section-tag {

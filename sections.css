@@ -53,7 +53,8 @@
 .hero {
   position: relative;
 
-  min-height: 100vh;
+  min-height: calc(100vh - 120px);
+  padding-top: calc(95px + var(--space-xl));
 
   display: flex;
   align-items: center;
@@ -167,13 +168,18 @@
 .hero-visual {
   position: relative;
 
+  align-items: flex-start;
+  padding-top: 24px;
+
   display: flex;
   justify-content: center;
 }
 
 .hero-image {
   width: 100%;
-  max-width: 560px;
+  max-width: 500px;
+  max-height: 620px;
+  height: auto;
 
   object-fit: cover;
 }
@@ -181,8 +187,8 @@
 .floating-card {
   position: absolute;
 
-  bottom: 40px;
-  left: 0;
+  bottom: 28px;
+  left: 50%;
 
   display: flex;
   gap: var(--space-lg);
@@ -196,11 +202,14 @@
   backdrop-filter: blur(18px);
 
   box-shadow: var(--shadow-md);
+
+  transform: translateX(-50%);
 }
 
 .floating-item {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .floating-item strong {
@@ -209,8 +218,8 @@
 
 .floating-item span {
   color: var(--text-light);
-
   font-size: 14px;
+  white-space: nowrap;
 }
 
 .about {
