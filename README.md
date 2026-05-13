@@ -21,6 +21,15 @@ O projeto foi estruturado com foco em:
 
 ---
 
+## 🔗 Demonstração Online
+
+O projeto está publicado e pode ser acessado em:
+
+**GitHub Pages:**  
+https://jessiwoy.github.io/petshop-landing-page/
+
+---
+
 ## 🎯 Objetivos do Desenvolvimento
 
 Este projeto teve como objetivo praticar e demonstrar conhecimentos em:
