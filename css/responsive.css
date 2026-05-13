@@ -143,3 +143,15 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 768px) {
+  .back-to-top {
+    right: 20px;
+    bottom: 20px;
+
+    width: 44px;
+    height: 44px;
+
+    font-size: 16px;
+  }
+}

@@ -1,20 +1,20 @@
 :root {
   /* Colors */
-  --primary: #4CAF7D;
-  --primary-light: #E6F4EC;
+  --primary: #4caf7d;
+  --primary-light: #e6f4ec;
 
-  --accent: #FF7A00;
+  --accent: #ff7a00;
 
-  --bg: #F9FAF9;
-  --surface: #FFFFFF;
+  --bg: #f9faf9;
+  --surface: #ffffff;
 
-  --text: #2D2D2D;
-  --text-light: #6B7280;
+  --text: #2d2d2d;
+  --text-light: #6b7280;
 
-  --border: #E5E7EB;
+  --border: #e5e7eb;
 
   /* Typography */
-  --font-family: 'Poppins', sans-serif;
+  --font-family: "Poppins", sans-serif;
 
   --h1-size: 40px;
   --h1-line: 48px;
@@ -49,5 +49,10 @@
   --container-width: 1200px;
 
   /* Transition */
-  --transition: all 0.3s ease;
+  transition:
+    opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
