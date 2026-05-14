@@ -63,7 +63,7 @@
 
   overflow: hidden;
 
-  background-image: url(./assets/images/hero-pet.jpg);
+  background-image: url(../assets/images/hero-pet.jpg);
   background-size: cover;
   background-position: center right;
   background-attachment: scroll;

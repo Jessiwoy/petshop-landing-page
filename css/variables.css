@@ -1,5 +1,4 @@
 :root {
-  /* Colors */
   --primary: #4caf7d;
   --primary-light: #e6f4ec;
 
@@ -13,7 +12,6 @@
 
   --border: #e5e7eb;
 
-  /* Typography */
   --font-family: "Poppins", sans-serif;
 
   --h1-size: 40px;
@@ -28,7 +26,6 @@
   --p-size: 16px;
   --p-line: 24px;
 
-  /* Spacing */
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 16px;
@@ -36,20 +33,16 @@
   --space-xl: 40px;
   --space-xxl: 64px;
 
-  /* Radius */
   --radius-sm: 8px;
   --radius-md: 16px;
   --radius-lg: 24px;
 
-  /* Shadow */
   --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.04);
   --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
 
-  /* Container */
   --container-width: 1200px;
 
-  /* Transition */
-  transition:
+  --transition:
     opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1),
     transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
     background 0.3s ease,
