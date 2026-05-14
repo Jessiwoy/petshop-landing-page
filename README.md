@@ -233,5 +233,5 @@ https://github.com/Jessiwoy/petshop-landing-page
 
 Este projeto utiliza recursos visuais de fontes externas e gerados durante o processo de desenvolvimento:
 
-- Algumas imagens fotográficas selecionadas a partir do banco gratuito de imagens do [Unsplash](https://unsplash.com)
-- Ícones e imagens fotográficas, gerados e refinados durante o desenvolvimento do projeto com apoio de ferramentas de IA
+- Imagens fotográficas selecionadas a partir do banco gratuito de imagens do [Unsplash](https://unsplash.com)
+- Ícone favcon e imagem hero, gerados e refinados durante o desenvolvimento do projeto com apoio de ferramentas de IA
